@@ -40,7 +40,8 @@ class ParamConfig:
         self.stratified_label = "query"
 
         ## path
-        self.data_folder = "../../Data"
+        # self.data_folder = "/home/algo/data/dataset/kaggler/crowdflower:" #"../../Data"
+        self.data_folder =   "../Data"
         self.feat_folder = feat_folder
         self.original_train_data_path = "%s/train.csv" % self.data_folder
         self.original_test_data_path = "%s/test.csv" % self.data_folder

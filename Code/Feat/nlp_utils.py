@@ -18,7 +18,7 @@ import re
 import sys
 import nltk
 from bs4 import BeautifulSoup
-from replacer import CsvWordReplacer
+from .replacer import CsvWordReplacer
 from nltk import pos_tag
 from sklearn.feature_extraction.text import TfidfVectorizer, CountVectorizer
 sys.path.append("../")

@@ -15,12 +15,17 @@ __author__
 """
 
 import sys
-import cPickle
+# import cPickle
+# sys.path.append("../")
+# sys.path.append("/home/algo/code/gitrepo/pylib/Kaggle_CrowdFlower/Code")
+# print(sys.path)
+import pickle
 import numpy as np
 import pandas as pd
-from nlp_utils import clean_text, pos_tag_text
-sys.path.append("../")
-from param_config import config
+
+from .nlp_utils import clean_text, pos_tag_text
+
+from ..param_config import config
 
 ###############
 ## Load Data ##
